@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+
+    <Resource name="jdbc/tododb"
+              auth="Container" type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              maxTotal="20" maxIdle="5" maxWaitMillis="10000"
+              username="postgres" password="admin"
+              url="jdbc:postgresql://localhost:5432/tododb?useSSL=false"/>
+
+</Context>

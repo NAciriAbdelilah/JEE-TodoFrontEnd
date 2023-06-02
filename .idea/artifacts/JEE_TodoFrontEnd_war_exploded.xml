@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JEE-TodoFrontEnd:war exploded">
+    <output-path>$PROJECT_DIR$/target/JEE-TodoFrontEnd-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>JEE-TodoFrontEnd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JEE-TodoFrontEnd" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.6.0" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.31.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/JEE-TodoFrontEnd-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JEE-TodoFrontEnd/web/Web" />
+    </root>
+  </artifact>
+</component>

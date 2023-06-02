@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JEE-TodoFrontEnd:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JEE-TodoFrontEnd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JEE-TodoFrontEnd-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JEE-TodoFrontEnd:war exploded" />
+    </root>
+  </artifact>
+</component>
