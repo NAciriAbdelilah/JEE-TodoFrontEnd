@@ -8,7 +8,6 @@
 </head>
 <body>
 
-<h2>Login Form</h2>
 <form action="LoginServlet" method="post">
     <fieldset>
         <legend>Login Details:</legend>

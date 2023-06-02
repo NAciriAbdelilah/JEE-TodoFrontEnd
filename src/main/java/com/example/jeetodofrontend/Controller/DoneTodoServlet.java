@@ -1,8 +1,6 @@
 package com.example.jeetodofrontend.Controller;
 
-import com.example.jeetodofrontend.Model.Todo;
 import com.example.jeetodofrontend.Model.TodoDBUtil;
-
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
